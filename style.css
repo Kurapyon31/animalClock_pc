@@ -1,0 +1,72 @@
+body{
+    background-color: navajowhite;
+}
+
+.wrapper {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  @media screen and (max-width: 980px) {
+    .wrapper {
+      width: 100%;
+    }
+  }
+  
+  .iframe-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+  
+  .iframe-content {
+    display: block;
+    margin: 0 auto;
+    
+    max-width: 100%;
+    
+    
+    width: 800px;
+    height: 600px;
+    
+
+    /*
+    width: 80%;
+    /*
+    height: 100%;
+    */
+  }
+  
+  
+  .video-content {
+    width: 100%;
+    height: auto;
+  }
+  
+  .caption {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+
+  .go_app{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .go_app_inst{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }

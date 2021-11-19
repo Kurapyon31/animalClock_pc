@@ -1,4 +1,74 @@
 body{
+  background-color: navajowhite;
+}
+
+.instract .inst_pic{
+  width: 100%;
+}
+
+.wrapper {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  @media screen and (max-width: 980px) {
+    .wrapper {
+      width: 100%;
+    }
+  }
+  
+  .iframe-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+  
+  .iframe-content {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    
+    width: 800px;
+    height: 450px;
+  }
+  
+  
+  .video-content {
+    width: 100%;
+    height: auto;
+  }
+  
+  .caption {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+
+  .go_app{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .go_app_inst{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+/*
+body{
     background-color: navajowhite;
 }
 
@@ -37,7 +107,7 @@ body{
     width: 80%;
     /*
     height: 100%;
-    */
+    
   }
   
   
@@ -70,3 +140,4 @@ body{
     width: 80%;
     margin: 0 auto;
   }
+  */
